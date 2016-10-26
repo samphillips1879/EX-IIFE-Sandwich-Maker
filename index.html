@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sandwich Maker IIFE EX</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<h1>Sandwich Maker Exercise</h1>
+
+
+
+	<div id="sandwichOptions">
+		<section id="breadSelect">
+			<h4>Choose your bread (pick only one)</h4>
+			<form>
+				<input type="radio" name="bread" value="White">White<br>
+				<input type="radio" name="bread" value="Wheat">Wheat<br>
+				<input type="radio" name="bread" value="Sourdough">Sourdough<br>
+				<input type="radio" name="bread" value="Rye">Rye<br>
+				<input type="radio" name="bread" value="No Bread">No bread, I like it messy
+			</form>
+
+		</section>
+
+
+		<section id="meatSelect">
+			<h4>Choose your meats (pick as many as you like)</h4>
+			<form>
+				<input type="checkbox" name="meats" value="Grilled Chicken">Grilled Chicken<br>
+				<input type="checkbox" name="meats" value="Meatballs">Meatballs<br>
+				<input type="checkbox" name="meats" value="Turkey">Turkey<br>
+				<input type="checkbox" name="meats" value="Ham">Ham<br>
+				<input type="checkbox" name="meats" value="Salami">Salami<br>
+				<input type="checkbox" name="meats" value="Bacon">Bacon<br>
+				<input type="checkbox" name="meats" value="No Meat">No meat, you murderer
+			</form>
+
+		</section>
+
+			<!-- at this point I realized I should have just injected all these damn inputs through javascript..... oh well -->
+
+		<section id="cheeseSelect">
+		<h4>Choose your cheese (pick as many as you like)</h4>
+		<form>
+				<input type="checkbox" name="cheeses" value="Pepperjack">Pepperjack<br>
+				<input type="checkbox" name="cheeses" value="American">American<br>
+				<input type="checkbox" name="cheeses" value="Provolone">Provolone<br>
+				<input type="checkbox" name="cheeses" value="Cheddar">Cheddar<br>
+				<input type="checkbox" name="cheeses" value="Monteray Jack">Monteray Jack<br>
+				<input type="checkbox" name="cheeses" value="Mozzarella">Mozzarella <br>
+				<input type="checkbox" name="cheeses" value="No Cheese">No Cheese, I'm lactose intolerant
+			</form>	
+		</section>
+
+
+		<section id="condimentSelect">
+		<h4>Choose your condiments (pick as many as you like)</h4>
+			<form>
+				<input type="checkbox" name="condiments" value="Ketchup">Ketchup<br>
+				<input type="checkbox" name="condiments" value="Mustard">Mustard<br>
+				<input type="checkbox" name="condiments" value="Ranch">Ranch<br>
+				<input type="checkbox" name="condiments" value="Barbecue Sauce">Barbecue Sauce<br>
+				<input type="checkbox" name="condiments" value="Buffalo Sauce">Buffalo Sauce<br>
+				<input type="checkbox" name="condiments" value="Sriracha">Sriracha<br>
+				<input type="checkbox" name="condiments" value="No Sauce">No sauce, I like it dry
+			</form>
+		</section>
+
+
+		<section id="veggieSelect">
+		<h4>Choose your veggies (pick as many as you like)</h4>
+			<form>
+				<input type="checkbox" name="veggies" value="Lettuce">Lettuce<br>
+				<input type="checkbox" name="veggies" value="Tomato">Tomato<br>
+				<input type="checkbox" name="veggies" value="Olives">Olives<br>
+				<input type="checkbox" name="veggies" value="Spinach">Spinach<br>
+				<input type="checkbox" name="veggies" value="Pickles">Pickles<br>
+				<input type="checkbox" name="veggies" value="Jalepenos">Jalepenos<br>
+				<input type="checkbox" name="veggies" value="No Veggies">No veggies, you hippie
+			</form>
+		</section>
+
+
+
+	</div>
+
+
+
+
+	<div id="outputElement">
+		
+	</div>
+
+	<script type="text/javascript" src="javascripts/sandwich.js"></script>
+	<script type="text/javascript" src="javascripts/bread.js"></script>
+	<script type="text/javascript" src="javascripts/meat.js"></script>
+	<script type="text/javascript" src="javascripts/cheese.js"></script>
+	<script type="text/javascript" src="javascripts/condiment.js"></script>
+	<script type="text/javascript" src="javascripts/veggie.js"></script>
+	<script type="text/javascript" src="javascripts/SandwichMaker.js"></script>
+	<script type="text/javascript" src="javascripts/DOMHandler.js"></script>
+
+</body>
+</html>
